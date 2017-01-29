@@ -193,12 +193,12 @@ function mustafa_kemal() {
 	echo "<b><p id='ataturk'>$chosen</p></b><br>";
 }
 
-// Now we set that function up to execute when the admin_notices action is called
+// Şimdi admin_notices fiili cağırıldığında çalıştırılacak olan fonksiyonu ayarlıyoruz.
 add_action( 'admin_notices', 'mustafa_kemal' );
 
-// We need some CSS to position the paragraph
+// Paragrafı konumlandırmak için CSS'e ihtiyacımız var.
 function ataturk_css() {
-	// This makes sure that the positioning is also good for right-to-left languages
+	// Bu, konumlandırmanın sağdan sola yazılan diller için de iyi olmasını sağlar.
 	$x = is_rtl() ? 'left' : 'right';
 
 	echo "
