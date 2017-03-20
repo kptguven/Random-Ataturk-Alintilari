@@ -1,7 +1,7 @@
 ## Requirements ##
 * Wordpress 
 
-## Nasıl Kullanılır? ##
+## How to use? ##
 Copy ataturk.php to your Wordpress plugin folder or create ataturk.php in that folder and copy-paste codes. And then activate it from admin panel. Now you can see quotes in your upper right corner in your admin panel.
 
 ```
